@@ -1,0 +1,7 @@
+co0 = "#000000"  # black
+co1 = "#cc1d4e"  # red
+co2 = "#feffff"  # white
+co3 = "#0074eb"  # blue
+co4 = "#435e5a"  # #435e5a
+co5 = "#59b356"  # green
+co6 = "#d9d9d9"  # grey
