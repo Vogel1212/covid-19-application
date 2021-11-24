@@ -1,4 +1,15 @@
 from tkinter import *
+from tkinter import ttk
+
+#import library
+#from PIL import Image
+from requests import request
+import string
+import json
+
+
+
+
 
 #######colors
 c0 = "#000000"  # black
@@ -34,14 +45,22 @@ send_frame_deaths= Frame(window, width=220, height=100, background=c2, relief="f
 send_frame_deaths.grid(row=1, column=2, sticky=NW, pady=5, padx=5)
 
 #red division frame
-select_frame= Frame(window, width=840, height=50, background=c1, relief="flat")
-select_frame.grid(row=2, column=0, columnspan=3, sticky=NSEW)
+select_frame= Frame(window, width=840, height=50, background=c6, relief="flat")
+select_frame.grid(row=2, column=0, columnspan=3, sticky=N, pady=10)
 
 #labels for app_cov_frame
 app_name = Label(app_cov_frame, text="COVID-19", width=20, height=1, pady=20,
                  relief="flat", anchor=CENTER, font=("Helvetica 25 bold"), background=c1, fg=c0)
 
 app_name.grid(row=0, column=0, pady=5)
+
+# API
+
+respon = request.get("https://covid19.mathdro.id/api")
+info=respon
+info=json.loads(info.text)
+
+print(info)
 
 #label for send_frame_infected
 label_infected = Label(send_frame_infected, text="Infected", width=20, height=1, pady=7, padx=0, 
@@ -106,6 +125,16 @@ lin_green = Label(send_frame_deaths, text="", width=19, height=1, pady=1, padx=0
                        relief="flat", anchor=NW, font=("Courier 1 bold"), background=c1, fg=c0)
 lin_green.grid(row=4, column=0, pady=0, padx=0, sticky=NSEW)
 
+#box selection country
+label_country = Label(select_frame, text="Select Country:", width=13, height=1, pady=7, padx=0, 
+                       relief="flat", anchor=NW, font=("Ivy 10 bold"), background=c6, fg=c0)
+label_country.grid(row=0, column=0, pady=1, padx=13)
+
+country=["Brazil", "Portugal", "USA", "France", "Spain", "China", "Japan", "Switzerland", "Germany", "Italy", "Belgium"]
+
+sel = ttk.Combobox(select_frame, width=15, font=("Ivy 8 bold"))
+sel["value"]=(country)
+sel.grid(row=0, column=1, padx=0, pady=13)
 
 window.mainloop()
 
