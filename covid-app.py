@@ -58,7 +58,7 @@ respon = request.get("https://covid19.mathdro.id/api")
 info=respon
 info=json.loads(info.text)
 
-print(info)
+print(info["confirm"])
 
 #label for send_frame_infected
 label_infected = Label(send_frame_infected, text="Infected", width=20, height=1, pady=7, padx=0, 
