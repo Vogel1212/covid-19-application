@@ -8,6 +8,8 @@ from requests import request
 import string
 import json
 
+import requests
+
 
 #######colors
 c0 = "#000000"  # black
@@ -54,11 +56,11 @@ app_name.grid(row=0, column=0, pady=5)
 
 # API
 
-respon = request.get("https://covid19.mathdro.id/api")
-info=respon
-info=json.loads(info.text)
+# respon = requests.get
+# info=respon
+# info=json.loads(info.text)
 
-print(info["confirm"])
+# print(info["confirm"])
 
 #label for send_frame_infected
 label_infected = Label(send_frame_infected, text="Infected", width=20, height=1, pady=7, padx=0, 
