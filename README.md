@@ -4,10 +4,10 @@
 
 <!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 
-![GitHub language count](https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/iuricode/README-template?style=for-the-badge)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
+![GitHub language count](https://github.com/Vogel1212/covid-19-application)
+![GitHub forks](https://github.com/Vogel1212/covid-19-application)
+![Bitbucket open issues](https://github.com/Vogel1212/covid-19-application)
+![Bitbucket open pull requests](https://github.com/Vogel1212/covid-19-application)
 
 <img src="covid-app-img.PNG" alt="CovidApp">  
 
@@ -31,7 +31,7 @@ Before starting, make sure you meet the following requirements:
 
 ## 🚀 Install <covid-app>
 
-Para instalar o <nome_do_projeto>, siga estas etapas:
+Para instalar o <covid_19_app>, siga estas etapas:
 
 Linux e macOS:
 ```
@@ -43,9 +43,9 @@ Windows:
 <comando_de_instalação>
 ```
 
-## ☕ Usando <nome_do_projeto>
+## ☕ Usando <covid_19_app>
 
-Para usar <nome_do_projeto>, siga estas etapas:
+Para usar <covid_19_app>, siga estas etapas:
 
 ```
 <exemplo_de_uso>
@@ -73,8 +73,16 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   <tr>
     <td align="center">
       <a href="#">
-        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
+        <img src="https://avatars.githubusercontent.com/u/42189591?v=4" width="100px;" alt="Foto do Gabriel Vogel no GitHub"/><br>
           <b>Gabriel Vogel</b>
+        </sub>
+      </a>
+    </td>
+    <tr>
+    <td align="center">
+      <a href="#">
+        <img src="https://avatars.githubusercontent.com/u/13216020?v=4" width="100px;" alt="Foto do Wolfgang Unger no GitHub"/><br>
+          <b>Wolfgang Unger</b>
         </sub>
       </a>
     </td>
