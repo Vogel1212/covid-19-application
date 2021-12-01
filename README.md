@@ -73,7 +73,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
     </td>  
     <tr>
     <td align="center">
-      <a href="#">
+      <a href="https://github.com/wolfgangunger">
         <img src="https://avatars.githubusercontent.com/u/13216020?v=4" width="100px;" alt="Foto do Wolfgang Unger no GitHub"/><br>
           <b>Wolfgang Unger</b>
         </sub>
@@ -90,4 +90,4 @@ Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contr
 
 Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
 
-[⬆ Voltar ao topo](#nome-do-projeto)<br>
+[⬆ Voltar ao topo](#covid-19-application)<br>
