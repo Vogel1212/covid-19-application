@@ -1,13 +1,6 @@
-* Still under development  
-
 # covid-19-application  
 
 <!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
-
-![GitHub language count](https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/iuricode/README-template?style=for-the-badge)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
 
 <img src="covid-app-img.PNG" alt="CovidApp">  
 
@@ -31,7 +24,7 @@ Before starting, make sure you meet the following requirements:
 
 ## 🚀 Install <covid-app>
 
-Para instalar o <nome_do_projeto>, siga estas etapas:
+Para instalar o <covid_19_app>, siga estas etapas:
 
 Linux e macOS:
 ```
@@ -43,9 +36,9 @@ Windows:
 <comando_de_instalação>
 ```
 
-## ☕ Usando <nome_do_projeto>
+## ☕ Usando <covid_19_app>
 
-Para usar <nome_do_projeto>, siga estas etapas:
+Para usar <covid_19_app>, siga estas etapas:
 
 ```
 <exemplo_de_uso>
@@ -73,29 +66,19 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   <tr>
     <td align="center">
       <a href="#">
-        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
-        <sub>
-          <b>Iuri Silva</b>
+        <img src="https://avatars.githubusercontent.com/u/42189591?v=4" width="100px;" alt="Foto do Gabriel Vogel no GitHub"/><br>
+          <b>Gabriel Vogel</b>
         </sub>
       </a>
-    </td>
+    </td>  
+    <tr>
     <td align="center">
-      <a href="#">
-        <img src="https://s2.glbimg.com/FUcw2usZfSTL6yCCGj3L3v3SpJ8=/smart/e.glbimg.com/og/ed/f/original/2019/04/25/zuckerberg_podcast.jpg" width="100px;" alt="Foto do Mark Zuckerberg"/><br>
-        <sub>
-          <b>Mark Zuckerberg</b>
+      <a href="https://github.com/wolfgangunger">
+        <img src="https://avatars.githubusercontent.com/u/13216020?v=4" width="100px;" alt="Foto do Wolfgang Unger no GitHub"/><br>
+          <b>Wolfgang Unger</b>
         </sub>
       </a>
     </td>
-    <td align="center">
-      <a href="#">
-        <img src="https://miro.medium.com/max/360/0*1SkS3mSorArvY9kS.jpg" width="100px;" alt="Foto do Steve Jobs"/><br>
-        <sub>
-          <b>Steve Jobs</b>
-        </sub>
-      </a>
-    </td>
-  </tr>
 </table>
 
 
@@ -107,4 +90,4 @@ Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contr
 
 Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
 
-[⬆ Voltar ao topo](#nome-do-projeto)<br>
+[⬆ Voltar ao topo](#covid-19-application)<br>
