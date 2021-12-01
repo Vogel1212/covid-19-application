@@ -70,7 +70,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
           <b>Gabriel Vogel</b>
         </sub>
       </a>
-    </td>
+    </td>  
     <tr>
     <td align="center">
       <a href="#">
