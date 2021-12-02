@@ -1,5 +1,6 @@
 # covid-19-application  
 
+
 <!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 
 <img src="covid-app-img.PNG" alt="CovidApp">  
@@ -91,3 +92,6 @@ Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contr
 Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
 
 [⬆ Voltar ao topo](#covid-19-application)<br>
+
+Run simulations (IN PROGRESS)
+Analyze simulations (COMING SOON)
