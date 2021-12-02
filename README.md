@@ -25,31 +25,30 @@ Before starting, make sure you meet the following requirements:
 
 ## 🚀 Install <covid-app>
 
-Para instalar o <covid_19_app>, siga estas etapas:
-
+To install <covid_19_app>, follow these steps:  
+  
 Linux e macOS:
 ```
-<comando_de_instalação>
+<install_command>
 ```
 
 Windows:
 ```
-<comando_de_instalação>
+<install_command>
 ```
 
-## ☕ Usando <covid_19_app>
+## ☕ Using <covid_19_app>
 
-Para usar <covid_19_app>, siga estas etapas:
-
+To use <covid_19_app>, follow these steps:
 ```
 <exemplo_de_uso>
 ```
 
 Adicione comandos de execução e exemplos que você acha que os usuários acharão úteis. Fornece uma referência de opções para pontos de bônus!
 
-## 📫 Contribuindo para <nome_do_projeto>
+## 📫 Contribuindo para <covid_19_app>
 <!---Se o seu README for longo ou se você tiver algum processo ou etapas específicas que deseja que os contribuidores sigam, considere a criação de um arquivo CONTRIBUTING.md separado--->
-Para contribuir com <nome_do_projeto>, siga estas etapas:
+Para contribuir com <covid_19_app>, siga estas etapas:
 
 1. Bifurque este repositório.
 2. Crie um branch: `git checkout -b <nome_branch>`.
@@ -63,15 +62,7 @@ Como alternativa, consulte a documentação do GitHub em [como criar uma solicit
 
 Agradecemos às seguintes pessoas que contribuíram para este projeto:
 
-<table>
-  <tr>
-    <td align="center">
-      <a href="#">
-        <img src="https://avatars.githubusercontent.com/u/42189591?v=4" width="100px;" alt="Foto do Gabriel Vogel no GitHub"/><br>
-          <b>Gabriel Vogel</b>
-        </sub>
-      </a>
-    </td>  
+<table>  
     <tr>
     <td align="center">
       <a href="https://github.com/wolfgangunger">
