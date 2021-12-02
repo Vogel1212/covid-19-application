@@ -93,5 +93,5 @@ Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais
 
 [⬆ Voltar ao topo](#covid-19-application)<br>
 
-Run simulations (IN PROGRESS)
+Run simulations (IN PROGRESS)  
 Analyze simulations (COMING SOON)
