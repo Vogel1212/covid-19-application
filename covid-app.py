@@ -2,7 +2,7 @@ from tkinter import *
 from tkinter import ttk
 
 #import library
-#from PIL import Image
+from PIL import Image
 
 from requests import request
 import string
@@ -49,10 +49,20 @@ select_frame= Frame(window, width=840, height=50, background=c6, relief="flat")
 select_frame.grid(row=2, column=0, columnspan=3, sticky=N, pady=10)
 
 #labels for app_cov_frame
-app_name = Label(app_cov_frame, text="COVID-19", width=20, height=1, pady=20,
-                 relief="flat", anchor=CENTER, font=("Helvetica 25 bold"), background=c1, fg=c0)
 
-app_name.grid(row=0, column=0, pady=5)
+img=Image.open("covidgreen.png")
+img=img.resize((60, 60))
+img=img.save("covidgreen1.png")
+imagecov= PhotoImage(file="covidgreen1.png")
+
+app_image = Label(app_cov_frame, image=imagecov, width=350, pady=20, anchor=NE,
+         relief="flat", background=c1,)
+app_image.grid(row=0, column=0, pady=5)
+
+app_name = Label(app_cov_frame, text="COVID-19", width=20, height=1, pady=20,
+                 relief="flat", anchor=NW, font=("Helvetica 25 bold"), background=c1, fg=c5)
+app_name.grid(row=0, column=1, pady=5)
+
 
 # API
 
