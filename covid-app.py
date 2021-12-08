@@ -188,7 +188,7 @@ def selects(eventObject):
         label_infected.configure(text=infected)
         label_recovered.configure(text=recovered)
         label_deaths.configure(text=deaths)
-
+        
 
 sel.bind("<<ComboboxSelected>>", selects)
 
