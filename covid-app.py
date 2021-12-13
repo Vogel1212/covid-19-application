@@ -50,7 +50,7 @@ select_frame.grid(row=2, column=0, columnspan=3, sticky=N, pady=10)
 
 #labels for app_cov_frame
 
-img=Image.open("covidgreen.png")
+img=Image.open("image/covidgreen.png")
 img=img.resize((60, 60))
 img=img.save("covidgreen1.png")
 imagecov= PhotoImage(file="covidgreen1.png")
