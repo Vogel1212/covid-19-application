@@ -22,8 +22,4 @@ class framesApp:
         window.configure(background=c6)
 
 
-sel.bind("<<ComboboxSelected>>", selects)
-
-window.mainloop()
-
         
