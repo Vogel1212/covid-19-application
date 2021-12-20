@@ -3,7 +3,7 @@
 
 <!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 
-<img src="covid-app-img.PNG" alt="CovidApp">  
+<img src="image/covid-app-img.PNG" alt="CovidApp">  
 
 > Select your desired country and track the total number of people who are infected, the total number of people who have recovered from the disease and the total number of deaths  
 
