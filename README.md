@@ -13,7 +13,7 @@ The project is still under development and future updates will focus on the foll
 
 - [x] Create Frames
 - [x] Front end Etructure
-- [x] import API
+- [x] import API > API crashing us recovered ⚠️⚠️
 - [x] Running program
 - [ ] Class Division  
 
