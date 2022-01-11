@@ -1,8 +1,8 @@
-from app import AppCovid
+from app import Window
 from frames_app import *
 
 from apps.api_covid import Apis
-
+from app import Window 
 from tkinter import *
 from tkinter import ttk
 

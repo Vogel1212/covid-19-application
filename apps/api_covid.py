@@ -1,4 +1,4 @@
-from app import AppCovid
+from app import Window
 
 # API Values
 
