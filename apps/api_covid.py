@@ -1,4 +1,5 @@
 from app import Window
+from apps.frames_app import *
 
 # API Values
 
