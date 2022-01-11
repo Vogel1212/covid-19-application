@@ -21,6 +21,7 @@ c5 = "#59b356"  # green
 c6 = "#d9d9d9"  # grey
 #######
 
+
 window = Tk()
 
 window.title('')
