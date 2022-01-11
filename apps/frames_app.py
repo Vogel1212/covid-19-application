@@ -32,9 +32,13 @@ window.geometry('835x360')
 window.configure(background=c6)
 
 class Covid_MainWindow(object):
-    def setupUi(self, MainWindow):
+
+    def __init__(self):
+        super().__init__()
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(835, 360)
+
+    def send_frame_infected(infected):
         label_infected = Label(send_frame_infected, text="Infected", width=20, height=1, pady=7, padx=0, 
                         relief="flat", anchor=NW, font=("Courier 15 bold"), background=c2, fg=c0)
         label_infected.grid(row=0, column=0, pady=1, padx=13)
@@ -55,7 +59,7 @@ class Covid_MainWindow(object):
                         relief="flat", anchor=NW, font=("Courier 1 bold"), background=c3, fg=c0)
         lin_blue.grid(row=4, column=0, pady=0, padx=0, sticky=NSEW)
         
-def send_frame_recovered(recovereds):
+    def send_frame_recovered(recovered):
         label_recovered = Label(send_frame_recovered, text="Recovered", width=20, height=1, pady=7, padx=0, 
                         relief="flat", anchor=NW, font=("Courier 15 bold"), background=c2, fg=c0)
         label_recovered.grid(row=0, column=0, pady=1, padx=13)
@@ -76,7 +80,7 @@ def send_frame_recovered(recovereds):
                         relief="flat", anchor=NW, font=("Courier 1 bold"), background=c5, fg=c0)
         lin_green.grid(row=4, column=0, pady=0, padx=0, sticky=NSEW)
         
-def send_frame_deaths(deaths):
+    def send_frame_deaths(deaths):
         label_deaths = Label(send_frame_deaths, text="Deaths", width=20, height=1, pady=7, padx=0, 
                         relief="flat", anchor=NW, font=("Courier 15 bold"), background=c2, fg=c0)
         label_deaths.grid(row=0, column=0, pady=1, padx=13)
@@ -96,3 +100,7 @@ def send_frame_deaths(deaths):
         lin_green = Label(send_frame_deaths, text="", width=19, height=1, pady=1, padx=0, 
                         relief="flat", anchor=NW, font=("Courier 1 bold"), background=c1, fg=c0)
         lin_green.grid(row=4, column=0, pady=0, padx=0, sticky=NSEW)
+
+window = Window() 
+
+window.mainloop()
